@@ -1,0 +1,215 @@
+baseURL = "https://fervent-hawking-fe677a.netlify.com/"
+theme = "dot"
+
+[params]
+primaryColor = "#02007e"
+secondaryColor = "#f9f9f9"
+textColor = "#636363"
+textColorDark = "#242738"
+whiteColor = "#ffffff"
+
+[Languages]
+
+  # English Language
+  [Languages.en]
+  languageName = "En"
+  weight = 1
+  languageCode = "en-us"
+  title = "Distill.io"
+  dateFormat = "2 January 2006"
+  home = "Home"
+  logo = "Distill.io"
+  copyright = "© All Rights Reserved Neemb LLC"
+
+    # navigation
+    [Languages.en.menu]
+    
+      [[Languages.en.menu.main]]
+        weight = 2
+        name = "Faq"
+        url = "faq"
+        
+      [[Languages.en.menu.main]]
+        weight = 2
+        name = "blog"
+        url = "blog"
+
+      [[Languages.en.menu.main]]
+        weight = 2
+        name = "contact"
+        url = "contact"
+
+    # banner
+    [Languages.en.params.banner]
+      title = "Support Center & Knowledge base"
+      description = "Find advice and answers from our support team fast or get in touch"
+      image = "images/banner.jpg"
+      placeholder = "Have a question? Just ask here or enter terms"
+
+    # Topics
+    [Languages.en.params.topics]
+      title = "Find your answer by subject"
+    
+    # call to action
+    [Languages.en.params.cta]
+      enable = true
+      title = "Didn't find an answer to your question?"
+      description = "Feel free to reach us anytime."
+      btnText = "contact us"
+      btnURL = "contact"
+
+    # contact
+    [Languages.en.params.contact]
+      title = "Got Any Questions"
+      content = "Submit the form and confirm your email address at <a class='text-primary' href='https://formspree.io/'>Formspree</a> Then add the following lines to contact page YAML Front Matter."
+
+    # footer social icon
+    [[Languages.en.socialIcon]]
+      icon = "ti-facebook"
+      linkURL = "https://www.facebook.com/distillweb"
+
+    [[Languages.en.socialIcon]]
+      icon = "ti-twitter-alt"
+      linkURL = "https://twitter.com/distill_io"
+      
+    [[Languages.en.socialIcon]]
+      icon = "ti-youtube"
+      linkURL = "https://www.youtube.com/channel/UCHqGo63bhz58zxMUvf-I5LA"
+
+
+
+
+
+  # Franch Language
+  [Languages.fr]
+  languageName = "Fr"
+  weight = 1
+  languageCode = "fr-fr"
+  title = "Distill.io"
+  dateFormat = "2 January 2006"
+  home = "Accueil"
+  logo = "Distill.io"
+  copyright = "© Tous droits réservés Neemb LLC."
+
+    # navigation
+    [Languages.fr.menu]
+    
+      [[Languages.fr.menu.main]]
+        weight = 2
+        name = "Faq"
+        url = "fr/faq"
+
+      [[Languages.fr.menu.main]]
+        weight = 2
+        name = "blog"
+        url = "fr/blog"
+
+      [[Languages.fr.menu.main]]
+        weight = 2
+        name = "contact"
+        url = "fr/contact"
+
+    # banner
+    [Languages.fr.params.banner]
+      title = "Comment pouvons nous aider?"
+      description = "Trouvez rapidement des conseils et des réponses auprès de notre équipe d'assistance ou contactez-nous."
+      image = "images/banner.jpg"
+      placeholder = "Have a question? Just ask here or enter terms"
+
+    # pages
+    [Languages.fr.params.pages]
+      title = "Parcourir tous les sujets"
+    
+    # call to action
+    [Languages.fr.params.cta]
+      enable = true
+      title = "Vous n'avez pas trouvé de réponse à votre question?"
+      description = "Contactez-nous pour plus de détails sur les services supplémentaires et la tarification du travail personnalisé"
+      btnText = "Contactez nous"
+      btnURL = "fr/contact/"
+
+    # contact
+    [Languages.fr.params.contact]
+      title = "Vous avez des questions"
+      content = "Envoyez le formulaire et confirmez votre adresse e-mail à l'adresse <a class='text-primary' href='https://formspree.io/'>Formspree</a> Ajoutez ensuite les lignes suivantes pour contacter la page YAML Front Matter."
+
+    # footer social icon
+    [[Languages.fr.socialIcon]]
+      icon = "ti-facebook"
+      linkURL = "https://www.facebook.com/distillweb"
+
+    [[Languages.fr.socialIcon]]
+      icon = "ti-twitter-alt"
+      linkURL = "https://twitter.com/distill_io"
+      
+    [[Languages.fr.socialIcon]]
+      icon = "ti-youtube"
+      linkURL = "https://www.youtube.com/channel/UCHqGo63bhz58zxMUvf-I5LA"
+
+
+
+  # Spanish Language
+  [Languages.es]
+  languageName = "Es"
+  weight = 1
+  languageCode = "es"
+  title = "Distill.io"
+  dateFormat = "2 January 2006"
+  home = "Casa"
+  logo = "Distill.io"
+  copyright = "© Todos los derechos reservados Neemb LLC"
+
+    # navigation
+    [Languages.es.menu]
+    
+      [[Languages.es.menu.main]]
+        weight = 2
+        name = "Faq"
+        url = "es/faq"
+
+      [[Languages.es.menu.main]]
+        weight = 2
+        name = "blog"
+        url = "es/blog"
+
+      [[Languages.es.menu.main]]
+        weight = 2
+        name = "contact"
+        url = "es/contact"
+
+    # banner
+    [Languages.es.params.banner]
+      title = "Centro de soporte y base de conocimiento"
+      description = "Encuentre consejos y respuestas de nuestro equipo de soporte rápidamente o póngase en contacto."
+      image = "images/banner.jpg"
+      placeholder = "¿Tengo una pregunta? Solo pregunte aquí o ingrese los términos"
+
+    # pages
+    [Languages.es.params.pages]
+      title = "Encuentra tu respuesta por tema"
+    
+    # call to action
+    [Languages.es.params.cta]
+      enable = true
+      title = "¿No encontró una respuesta a su pregunta?"
+      description = "No dude en comunicarse con nosotros en cualquier momento."
+      btnText = "Contáctenos"
+      btnURL = "es/contact/"
+
+    # contact
+    [Languages.es.params.contact]
+      title = "Tengo alguna pregunta"
+      content = "Envíe el formulario y confirme su dirección de correo electrónico en Formspree. Luego agregue las siguientes líneas a la página de contacto YAML Front Matter."
+
+    # footer social icon
+    [[Languages.es.socialIcon]]
+      icon = "ti-facebook"
+      linkURL = "https://www.facebook.com/distillweb"
+
+    [[Languages.es.socialIcon]]
+      icon = "ti-twitter-alt"
+      linkURL = "https://twitter.com/distill_io"
+      
+    [[Languages.es.socialIcon]]
+      icon = "ti-youtube"
+      linkURL = "https://www.youtube.com/channel/UCHqGo63bhz58zxMUvf-I5LA"
